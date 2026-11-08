@@ -307,6 +307,7 @@
   function closeMenu(){ document.getElementById("sidebar").classList.remove("show"); document.getElementById("scrim").classList.remove("show"); }
   document.getElementById("menu").onclick=openMenu;
   document.getElementById("scrim").onclick=closeMenu;
+  var homeBtn=document.getElementById("home"); if(homeBtn) homeBtn.onclick=function(){ go("overview"); };
 
   /* ---------- roadmap view ---------- */
   function renderRoadmap(){
