@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DevOps Собес — тренажёр вопросов</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <button class="iconbtn menubtn" id="menu" aria-label="Меню">☰</button>
+    <div class="brand"><b>DevOps Собес</b><span>Swfuse/devops-interview</span></div>
+    <label class="search">
+      <span aria-hidden="true">🔎</span>
+      <input id="search" type="search" placeholder="Поиск по вопросам…" autocomplete="off">
+      <span class="k">/</span>
+    </label>
+    <div class="top-right">
+      <span class="pill" id="prog-pill">—</span>
+      <button class="iconbtn" id="theme" title="Тема" aria-label="Тема">🌙</button>
+    </div>
+  </header>
+
+  <div class="scrim" id="scrim"></div>
+  <aside id="sidebar"></aside>
+
+  <main id="main"></main>
+
+  <footer class="credit">
+    Вопросы и ответы — из открытого репозитория
+    <a href="https://github.com/Swfuse/devops-interview" target="_blank" rel="noopener">Swfuse/devops-interview</a>.
+    Этот сайт — учебная оболочка для их проработки. Весь контент принадлежит авторам источника.
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
